@@ -4,10 +4,12 @@
  */
 package br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras;
 
+import org.junit.Test;
+
 /**
  *
  * @author vanessalagomachado
  */
 public class TestPersistencia {
-    
+
 }
