@@ -4,6 +4,7 @@
  */
 package br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras;
 
+import br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras.dao.PersistenciaJPA;
 import org.junit.Test;
 
 /**
@@ -12,4 +13,13 @@ import org.junit.Test;
  */
 public class TestPersistencia {
 
+    @Test
+    public void testeConexao(){
+        PersistenciaJPA jpa = new PersistenciaJPA();
+        if(jpa.conexaoAberta()){
+            System.out.println("Conexão realizada com sucesso");
+        } else {
+            System.out.println("Falha ao conectar ao Banco");
+        }
+    }
 }

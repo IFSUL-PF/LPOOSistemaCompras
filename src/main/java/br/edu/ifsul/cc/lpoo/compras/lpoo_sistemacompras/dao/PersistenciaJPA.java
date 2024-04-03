@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras;
+package br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras.dao;
 
 import br.edu.ifsul.cc.lpoo.compras.lpoo_sistemacompras.dao.InterfacePersistencia;
 import javax.persistence.EntityManager;
